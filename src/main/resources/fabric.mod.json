@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dreamkitchen",
+  "version": "${version}",
+  "name": "DreamKitchen",
+  "description": "",
+  "authors": [
+    "Kustik2-0"
+  ],
+  "contact": {
+    "repo": "https://github.com/kustik2-0/DreamKitchen"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/dreamkitchen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.kustik.dreamkitchen.client.DreamKitchenClient"
+    ],
+    "main": [
+      "net.kustik.dreamkitchen.DreamKitchen"
+    ]
+  },
+  "mixins": [
+    "dreamkitchen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
